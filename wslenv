@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Script for Windows WSL
+# Fetch the value of the win environment variable %PYTHONPATH%
+# And converts it to a linux environment variable
+
+IFS=$';'
+winpath=$(cmd.exe /C "echo %$1%")
+if [[ $winpath != *"%"* ]]; then
+    linuxpath=""
+    for p in $winpath
+    do
+        wslp=$(wslpath "${p}")
+        linuxpath="${linuxpath}:${wslp}"
+    done
+    echo ${linuxpath#":"} #remove leading ':'
+fi
