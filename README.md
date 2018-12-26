@@ -8,3 +8,4 @@ This repo contains the bash and python scripts I wrote.
 - **process_priority.py**: python script to change to current thread's priority class
 - **notifier.py**: python script to display a native windows 10 toast notification from windows python or WSL python
 - **slack_notifier.py**: python script to send a notification on a slack channel specified in `SLACK_NOTIFIER_URL' environment variable
+- **selenium_tools.py**: python library that adds missing features to Selenium, such as ability to download files
