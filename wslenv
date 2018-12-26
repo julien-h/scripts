@@ -12,6 +12,6 @@ if [[ $winpath != *"%"* ]]; then
     do
         wslp=$(wslpath "${p}")
         linuxpath="${linuxpath}:${wslp}"
-    doneg
+    done
     echo ${linuxpath#":"} #remove leading ':'
 fi
