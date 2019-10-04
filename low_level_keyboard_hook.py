@@ -1,7 +1,7 @@
 """Module to register a LowLevelKeyBoardHook to listen to keyboard events in Windows.
 
-Call the function `add_listener(callback)` to register a listener. Then run your own Windows
-GetMessage/TranslateMessage/DispatchMessage loop, or call the function `listen()`.
+Call the function `add_listener(callback)` to register a listener. Then call the function `listen()`,
+or run your own GetMessage/TranslateMessage/DispatchMessage loop.
 
 The callback has this signature: `(wParam, lParam) -> Bool`.
 - `wParam` can be any of `win32con.{WM_KEYDOWN, WM_KEYUP, WM_SYSKEYDOWN, WM_SYSKEYUP}`
