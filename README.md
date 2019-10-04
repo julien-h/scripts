@@ -10,3 +10,7 @@ This repo contains the bash and python scripts I wrote.
 - **slack_notifier.py**: python script to send a notification on a slack channel specified in `SLACK_NOTIFIER_URL' environment variable
 - **email_notifier.py**: python script to send a notification by email to a pre-configured destination address
 - **selenium_tools.py**: python library that adds missing features to Selenium, such as ability to download files
+- **download.py**: download a file and display an optional progress bar
+- **low_level_keyboard_hook.py**: an implementation of LowLevelKeyboardHook for Windows DLL, use it to listen to keyboard events
+- **nightlight.py**: functions to open the nightlight settings on Windows and send input to it
+- **nightlight_hotkey.py**: implement a hotkey to change nightlight settings; does so by listening to keyboard input
