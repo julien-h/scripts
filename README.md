@@ -1,6 +1,6 @@
 # Julien-h's scripts
 
-This repo contains the bash and python scripts I wrote.
+This repo contains the bash and python scripts I wrote when using Windows 10 OS.
 
 ## Index
 
@@ -14,3 +14,7 @@ This repo contains the bash and python scripts I wrote.
 - **low_level_keyboard_hook.py**: an implementation of LowLevelKeyboardHook for Windows DLL, use it to listen to keyboard events
 - **nightlight.py**: functions to open the nightlight settings on Windows and send input to it
 - **nightlight_hotkey.py**: implement a hotkey to change nightlight settings; does so by listening to keyboard input
+
+## Disclaimer
+
+I have since switched to Linux and haven't published my new set of scripts, yet. Send me a mail if you want to see them on Github.
